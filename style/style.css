@@ -10,263 +10,327 @@ body nav.upper {
   background: linear-gradient(125deg, rgb(39, 207, 26) 50%, rgb(2, 49, 6) 50%);
   width: 100%;
 }
+@media (max-width: 900px) {
+  body nav.upper {
+    background: black;
+  }
+}
+@media (max-width: 600px) {
+  body nav.upper {
+    background: red;
+  }
+}
 body nav.upper .row {
   display: flex;
+  margin-left: auto;
+  margin-right: 50px;
 }
 body nav.upper .row ul {
   display: flex;
-  justify-content: flex-end;
-  margin-left: 950px;
-  gap: 5px;
+  gap: 10px;
 }
 body nav.upper .row ul li {
-  margin: 5px;
+  margin: 10px;
   list-style: none;
+  margin-left: auto;
 }
 body nav.upper .row ul li a i {
   color: white;
   border-left: 1px solid white;
   padding-left: 5px;
 }
-body header.mid {
+
+header.mid {
   background: linear-gradient(125deg, rgb(37, 57, 36) 50%, rgb(4, 94, 12) 50%);
   margin-top: 0px;
   padding: 1px;
   width: 100%;
 }
-body header.mid .mid1 ul {
+@media (max-width: 900px) {
+  header.mid {
+    background: black;
+  }
+}
+@media (max-width: 600px) {
+  header.mid {
+    background: red;
+  }
+}
+header.mid .mid1 ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-right: 50px;
   margin-left: 50px;
 }
-body header.mid .mid1 ul li {
+header.mid .mid1 ul li {
   list-style: none;
 }
-body header.mid .mid1 ul li a {
+header.mid .mid1 ul li a {
   color: white;
   font-size: 20px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-decoration: none;
 }
-body header.mid .mid1 ul li a:hover {
+header.mid .mid1 ul li a:hover {
   color: black;
   background-color: white;
 }
-body nav.lower {
+
+nav.lower {
   background: linear-gradient(125deg, rgb(16, 83, 10) 50%, rgb(26, 170, 39) 50%);
   width: 100%;
   height: 80px;
 }
-body section.image {
+@media (max-width: 900px) {
+  nav.lower {
+    background: black;
+  }
+}
+@media (max-width: 600px) {
+  nav.lower {
+    background: red;
+  }
+}
+
+section.image {
   width: 100%;
   margin-top: 20px;
 }
-body section.image img {
+section.image img {
   height: 800px;
   width: 100%;
 }
-body section.heading {
+
+section.heading {
   width: 100%;
 }
-body section.heading .h2 {
+section.heading .h2 {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-body section.heading .h2 h2 {
+section.heading .h2 h2 {
   color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
 }
-body section.table {
+
+section.table {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-body section.table .table1 {
+section.table .table1 {
   border: 1px solid black;
   border-collapse: collapse;
 }
-body section.table .table1 thead tr {
+section.table .table1 thead tr {
   border: 1px solid black;
 }
-body section.table .table1 thead tr th {
+section.table .table1 thead tr th {
   border: 1px solid black;
   padding: 20px;
 }
-body section.table .table1 tbody {
+section.table .table1 tbody {
   border: 1px solid black;
 }
-body section.table .table1 tbody tr {
+section.table .table1 tbody tr {
   border: 1px solid black;
 }
-body section.table .table1 tbody tr td {
+section.table .table1 tbody tr td {
   border: 1px solid black;
   padding: 20px;
   margin-right: auto;
 }
-body section.heading1 {
+
+section.heading1 {
   width: 100%;
 }
-body section.heading1 .h2 {
+section.heading1 .h2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body section.heading1 .h2 h2 {
+section.heading1 .h2 h2 {
   color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
 }
-body section.team-iamges {
-  width: 80%;
+
+section.team-iamges {
+  width: 90%;
 }
-body section.team-iamges .images1 {
+section.team-iamges .images1 {
   display: flex;
   flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
 }
-body section.team-iamges .images1 img {
-  width: 160px;
-  height: 160px;
-  max-height: 160px;
-  min-height: 160px;
-  min-width: 160px;
-  max-width: 160px;
+section.team-iamges .images1 img {
+  width: 15%;
+  min-width: 15% px;
+  max-width: 15% px;
   flex: 1 0 160px;
 }
-body section.heading2 .h2 {
+
+section.heading2 .h2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body section.heading2 .h2 h2 {
+section.heading2 .h2 h2 {
   color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
 }
-body section.score-board {
+
+section.score-board {
   width: 80%;
   background-color: green;
   margin-left: auto;
   margin-right: auto;
 }
-body section.score-board .h1 {
+section.score-board .h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
 }
-body section.score-board .h1 h1 {
-  width: 20%;
+section.score-board .h1 h1 {
+  width: 22%;
   font-size: 4rem;
 }
-body section.score-board .p {
+section.score-board .p {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
 }
-body section.score-board .p p {
+section.score-board .p p {
   margin-top: 0px;
   width: 20%;
   font-size: 30px;
 }
-body section.video {
+
+section.video {
   width: 100%;
-}
-body section.video video {
-  width: 80%;
-  margin-left: 152px;
-  margin-top: 10px;
-}
-body section.heading3 {
-  width: 100%;
-}
-body section.heading3 .h2 {
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body section.heading3 .h2 h2 {
-  color: green;
-}
-body section.images-6 {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-body section.images-6 .image img {
+
+section.heading3 {
   width: 100%;
 }
-body section.heading4 {
-  width: 100%;
-}
-body section.heading4 .h2 {
+section.heading3 .h2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body section.heading4 .h2 h2 {
+section.heading3 .h2 h2 {
   color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
 }
-body section.image-sponsor {
+
+section.images-6 {
+  width: 75%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section.images-6 .image {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+section.images-6 .image img {
+  width: 30%;
+  max-width: 25%;
+  min-width: 25%;
+  flex: 1 0 25%;
+}
+
+section.heading4 {
+  width: 100%;
+}
+section.heading4 .h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.heading4 .h2 h2 {
+  color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+section.image-sponsor {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
-body section.image-sponsor .image img {
+section.image-sponsor .image img {
   width: 100%;
 }
-body section.second-last {
+
+section.second-last {
   width: 40%;
   display: flex;
 }
-body section.second-last .left .links {
+section.second-last .left .links {
   display: flex;
   flex-direction: column;
 }
-body section.second-last .left .links ul {
+section.second-last .left .links ul {
   list-style: none;
 }
-body section.second-last .left .links ul li {
+section.second-last .left .links ul li {
   margin-top: 10px;
 }
-body section.second-last .left .links ul li a {
+section.second-last .left .links ul li a {
   color: black;
   margin-left: 10px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1rem;
 }
-body section.second-last .left .links ul li a i {
+section.second-last .left .links ul li a i {
   margin-right: 10px;
+  font-size: 2rem;
 }
-body section.second-last .left .icon-links {
+section.second-last .left .icon-links {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body section.second-last .left .icon-links a {
+section.second-last .left .icon-links a {
   margin-left: 10px;
 }
-body section.second-last .left .icon-links a i {
+section.second-last .left .icon-links a i {
   margin-left: 5px;
 }
-body section.second-last .right {
-  width: 50%;
+section.second-last .right {
+  width: 45%;
   margin-left: 50px;
 }
-body section.second-last .right .images img {
+section.second-last .right .images img {
   width: 100%;
 }
-body footer.footer {
+section.second-last .right .lower a img i {
+  color: black;
+}
+
+footer.footer {
   width: 100%;
   height: 100px;
   background-color: green;
 }
 @media (max-width: 991px) {
-  body footer.footer {
+  footer.footer {
     background-color: red;
   }
 }
-body footer.footer p {
+footer.footer p {
   margin-left: 40px;
   padding-top: 10px;
 }/*# sourceMappingURL=style.css.map */
